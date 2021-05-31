@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+!*result_ranelid_256.obj
 
 # Precompiled Headers
 *.gch
@@ -72,3 +73,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Blender
+*.blend1
